@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "222628280908",
+    "project_id": "breatherm-b724d",
+    "storage_bucket": "breatherm-b724d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222628280908:android:0b150aade0e0b0481452e9",
+        "android_client_info": {
+          "package_name": "com.MagicBullet.ProjectBreatheApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222628280908-o45v3nplo5tjn6io6akbcdc82n49koug.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.MagicBullet.ProjectBreatheApp",
+            "certificate_hash": "949cc5cbb149f609dd73b74128dec77beadec365"
+          }
+        },
+        {
+          "client_id": "222628280908-3jh8g0e2uj1p8ossrpe2qr4u0hplh8l1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmquDjc4aMVZmfYi4M55c7RXe5jEA_cns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222628280908-3jh8g0e2uj1p8ossrpe2qr4u0hplh8l1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
