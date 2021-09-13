@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.Threading.Tasks;
 using Foundation;
+using ObjCRuntime;
 using PushDemo.iOS.Extensions;
 using PushDemo.iOS.Services;
 using PushDemo.Services;
@@ -74,10 +75,15 @@ namespace PushDemo.iOS
             NSError error)
             => Debug.WriteLine(error.Description); 
 
-        public override void ReceivedRemoteNotification(
-            UIApplication application,
-            NSDictionary userInfo)
-            => ProcessNotificationActions(userInfo);
+        ////public override void ReceivedRemoteNotification(
+        ////    UIApplication application,
+        ////    NSDictionary userInfo)
+        ////    => ProcessNotificationActions(userInfo);
+
+        public override void DidReceiveRemoteNotification(UIApplication application, NSDictionary userInfo, Action<UIBackgroundFetchResult> completionHandler)
+        {
+            this.ProcessNotificationActions(userInfo);
+        }
 
         void RegisterForRemoteNotifications()
         {
